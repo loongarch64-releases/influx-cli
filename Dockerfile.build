@@ -1,0 +1,8 @@
+FROM lcr.loongnix.cn/library/golang:1.26-alpine
+
+RUN apk add --no-cache \
+  make \
+  bash \
+  git
+
+CMD ["/bin/bash"]
